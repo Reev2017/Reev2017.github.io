@@ -161,7 +161,6 @@ button.gamma-btn-close:before {
 }
 
 .gamma-overlay {
-	background: #000;
 	position: fixed;
 	top: 0;
 	left: 0;
