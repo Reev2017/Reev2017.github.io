@@ -145,13 +145,9 @@ button.gamma-btn-close:before {
 	content: '\2715';
 }
 
-button.gamma-btn-ssplay:before {
-	content: '\25b6';
-}
 
-button.gamma-btn-sspause:before {
-	content: '\2389';
-}
+
+
 
 .gamma-single-view {
 	position: fixed;
