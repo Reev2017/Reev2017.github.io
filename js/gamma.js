@@ -274,7 +274,18 @@ var Gamma = (function() {
 			}
 
 		},
-		
+		_createSingleViewNavigation = function() {
+
+			if( Gamma.itemsCount > 1 ) {
+
+				Gamma.svplay = $( '<button class="gamma-btn-ssplay"></button>' ).insertAfter( Gamma.svclose );
+				Gamma.nav = $( '<nav class="gamma-nav"><span class="gamma-prev"></span><span class="gamma-next"></span></nav>' ).appendTo( Gamma.singleview );
+				Gamma.svnavnext = Gamma.nav.find( 'span.gamma-next' );
+				Gamma.svnavprev = Gamma.nav.find( 'span.gamma-prev' );
+
+				_initEvents( 'singleviewnavigation' );
+
+			}
 
 		},
 		// controller: "goes to" a specific image or back to the grid
