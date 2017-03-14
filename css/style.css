@@ -177,15 +177,7 @@ button.gamma-btn-close:before {
 	cursor: pointer;
 }
 
-.gamma-description-wrapper {
-	background: rgba(0,0,0,0.7);
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	z-index: 10;
-	padding: 5px 0;
-}
+
 
 .gamma-single-view .gamma-description {
 	background: transparent;
