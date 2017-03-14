@@ -789,7 +789,7 @@ var Gamma = (function() {
 			
 			setTimeout( function() {
 
-				_applyAnimation( Gamma.overlay, { 'opacity' : 0.5 }, Gamma.settings.speed, Gamma.supportTransitions || !anim, function() {
+				_applyAnimation( Gamma.overlay, { 'opacity' : 0.8 }, Gamma.settings.speed, Gamma.supportTransitions || !anim, function() {
 
 					if( !Gamma.isSV ) {
 
