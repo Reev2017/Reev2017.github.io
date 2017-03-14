@@ -26,9 +26,10 @@ body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
-    -webkit-font-smoothing: antialiased;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-color: none;
+    color: none;
 }
 
 a {
