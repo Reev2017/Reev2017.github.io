@@ -805,7 +805,7 @@ var Gamma = (function() {
 					// force repaint. Chrome in Windows does not remove overflow..
 					// http://stackoverflow.com/a/3485654/989439
 					var el = Gamma.overlay[0];
-					el.style.display='none';
+					el.style.display='block';
 					el.offsetHeight; // no need to store this anywhere, the reference is enough
 					el.style.display='block';
 
