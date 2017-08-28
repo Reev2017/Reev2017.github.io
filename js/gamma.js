@@ -1113,15 +1113,7 @@ var Gamma = (function() {
 			_toggleControl( Gamma.svnavprev, 'off', { left : -40 } );
 			_toggleControl( Gamma.svnavnext, 'off', { right : -40 } );
 			
-			_svResizeImage( function() {
-
-				Gamma.isAnimating = false;
-
-				Gamma.svplay.addClass( 'gamma-btn-sspause' );
-				_startSlideshow();
-
-			} );
-
+			
 		},
 		_preloadNext = function() {
 
