@@ -781,7 +781,7 @@ var Gamma = (function() {
 					}
 					
 					// set the overflow-y to hidden
-					$body.css( 'overflow-y', 'hidden' );
+					$body.css( 'overflow-y', 'visible' );
 					// force repaint. Chrome in Windows does not remove overflow..
 					// http://stackoverflow.com/a/3485654/989439
 					var el = Gamma.overlay[0];
@@ -791,7 +791,7 @@ var Gamma = (function() {
 
 				} );
 
-				$item.css( 'visibility', 'hidden' );
+				$item.css( 'visibility', 'visible' );
 
 				if( !anim ) {
 
