@@ -1121,7 +1121,7 @@ var Gamma = (function() {
 				_startSlideshow();
 
 			} );
-			
+
 		},
 		_preloadNext = function() {
 
