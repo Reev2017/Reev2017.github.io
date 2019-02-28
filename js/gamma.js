@@ -1358,3 +1358,5 @@ var Gamma = (function() {
 	}
 
 })();
+
+document.getElementByClassName("gamma-btn-ssplay").style.visibility = "hidden";
