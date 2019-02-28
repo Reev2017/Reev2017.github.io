@@ -258,7 +258,7 @@ var Gamma = (function() {
 
 			if( Gamma.itemsCount > 1 ) {
 
-				//Gamma.svplay = $( '<button class="gamma-btn-ssplay"></button>' ).insertAfter( Gamma.svclose );
+				//Gamma.svplay = $( '<button class="gamma-btn-ssplay"></button>' ).insertAfter( Gamma.svclose ) ;
 				Gamma.nav = $( '<nav class="gamma-nav"><span class="gamma-prev"></span><span class="gamma-next"></span></nav>' ).appendTo( Gamma.singleview );
 				Gamma.svnavnext = Gamma.nav.find( 'span.gamma-next' );
 				Gamma.svnavprev = Gamma.nav.find( 'span.gamma-prev' );
@@ -1118,8 +1118,8 @@ var Gamma = (function() {
 
 				Gamma.isAnimating = false;
 
-				Gamma.svplay.addClass( 'gamma-btn-sspause' );
-				_startSlideshow();
+				//Gamma.svplay.addClass( 'gamma-btn-sspause' );
+				//_startSlideshow();
 
 			} );
 
@@ -1170,7 +1170,7 @@ var Gamma = (function() {
 			if( !pause ) {
 
 				Gamma.slideshow = false;
-				Gamma.svplay.removeClass( 'gamma-btn-sspause' );
+				//Gamma.svplay.removeClass( 'gamma-btn-sspause' );
 				Gamma.svMargins = Gamma.settings.svMarginsVH;
 				_toggleControl( Gamma.svclose, 'on' );
 				_toggleControl( Gamma.svnavprev, 'on', { left : 20 } );
@@ -1283,7 +1283,7 @@ var Gamma = (function() {
 
 					}
 
-					Gamma.svplay.on( 'click.gamma', function() {
+					/*Gamma.svplay.on( 'click.gamma', function() {
 
 						if( Gamma.slideshow ) {
 
@@ -1296,7 +1296,7 @@ var Gamma = (function() {
 
 						}
 
-					} );
+					} );*/
 
 					break;
 
