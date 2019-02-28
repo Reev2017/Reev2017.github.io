@@ -1283,7 +1283,7 @@ var Gamma = (function() {
 
 					}
 
-					/*Gamma.svplay.on( 'click.gamma', function() {
+					Gamma.svplay.on( 'click.gamma', function() {
 
 						if( Gamma.slideshow ) {
 
@@ -1296,7 +1296,7 @@ var Gamma = (function() {
 
 						}
 
-					} );*/
+					} );
 
 					break;
 
